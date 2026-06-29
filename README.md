@@ -114,14 +114,14 @@ The semantic model uses Direct Lake mode, querying the Gold Delta tables directl
 ```
 .
 ├── notebooks/
-│   ├── silver_validate.ipynb
-│   └── gold_star_schema.ipynb
+│   ├── NotebookGoldTransformation_ShoppingMart.ipynb
+│   └── Notebook_SilverTransformation_ShoppingMart.ipynb
 ├── Data_pipelines/
 │   ├── master_pipeline.json
 │   ├── ingest_structured.json
 │   └── ingest_unstructured.json
 ├── metadata/
-│   └── source_config.csv
+│   └── source_config.json
 ├── semantic-model/
 │   └── model.bim
 ├── docs/
