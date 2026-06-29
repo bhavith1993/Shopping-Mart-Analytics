@@ -10,7 +10,7 @@ The challenge is that the data needed to answer these questions is split across 
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](Architecture/architecture.png)
 
 A master pipeline orchestrates the full flow in sequence: two metadata-driven ingestion sub-pipelines land raw data in Bronze, then two notebooks build the Silver and Gold layers. A governance and operations band applies across every stage.
 
